@@ -1,0 +1,206 @@
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	transition-property: all;
+	transition-duration: 1s;
+	float: left;
+	transform: scale(1, 1);
+
+	animation: opacityTozero;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+
+.box:hover{
+	transform: rotate(180deg);
+	transform: scale(0, 0);
+	animation-play-state: running;
+}
+
+@keyframes opacityTozero {
+	0% {
+		opacity: 1
+	}
+	100% {
+		opacity: 0
+	}
+}
+
+
+
+
+
+
+.b{background-color: black; height: 100%}
+
+.a{width: 700px; height: 400px; margin: auto; margin-top: 15%}
+
+.box1{
+	width: 100px;
+	height: 100px;
+	background-color: #bfbfbf;
+	transition-property: transform;
+	transition-duration: 1s;
+	float: left;
+	transform: scale(1, 1);
+
+	animation: ;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+
+
+.box1:hover{
+	transform: rotate(360deg);
+	background-color: black;
+	transform: scale(1, 0);
+
+}
+
+
+.box2{
+	width: 100px;
+	height: 100px;
+	background-color: #fffc00;
+	transition-property: transform;
+	transition-duration: 1s;
+	float: left;
+	transform: scale(1, 1);
+
+	animation: d ;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+
+.box2:hover{
+	transform: rotate(360deg);
+	transform: scale(1, 0);
+	background-color: black;
+}
+
+
+
+.box3{
+	width: 100px;
+	height: 100px;
+	background-color: #01ffff;
+	transition-property: transform;
+	transition-duration: 1s;
+	float: left;
+	transform: scale(1, 1);
+
+	animation: opacityTozero;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+.box3:hover{
+	transform: rotate(360deg);
+	background-color: black;
+	transform: scale(1, 0);
+}
+
+
+
+.box4{
+	width: 100px;
+	height: 100px;
+	background-color: #00ff01;
+	transition-property: transform;
+	transition-duration: 1s;
+	float: left;
+	transform: scale(1, 1);
+
+	animation: opacityTozero;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+.box4:hover{
+	transform: rotate(360deg);
+	background-color: black;
+	transform: scale(1, 0);
+}
+
+
+
+.box5{
+	width: 100px;
+	height: 100px;
+	background-color: #fe00fe;
+	transition-property: transform;
+	transition-duration: 1s;
+	float: left;
+	transform: scale(1, 1);
+
+	animation: opacityTozero;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+.box5:hover{
+	transform: rotate(360deg);
+	background-color: black;
+	transform: scale(1, 0);
+}
+
+
+
+.box6{
+	width: 100px;
+	height: 100px;
+	background-color: #fe0000;
+	transition-property: transform;
+	transition-duration: 1s;
+	float: left;
+	transform: scale(1, 1);
+
+	animation: opacityTozero;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+.box6:hover{
+	transform: rotate(360deg);
+	background-color: black;
+	transform: scale(1, 0);
+}
+
+
+
+.box7{
+	width: 100px;
+	height: 100px;
+	background-color: #0000fe;
+	transition-property: transform;
+	transition-duration: 1s;
+	float: left;
+	transform: scale(1, 1);
+
+	animation: opacityTozero;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+.box7:hover{
+	transform: rotate(360deg);
+	background-color: black;
+	transform: scale(1, 0);
+}
+
+.c{
+	color: white;
+	margin: auto;
+	text-align: center;
+	padding-top: 10px
+}
+
+
+
+
+
+
